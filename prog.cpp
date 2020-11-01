@@ -49,7 +49,7 @@ void Login::Read()
 	fin.close();
 }
 
-void Login :: login(char user_n[], char pass[])
+void Login::login(char user_n[], char pass[])
 {
 	int f_pass;
 	int again;
@@ -126,7 +126,7 @@ void Login :: login(char user_n[], char pass[])
 //void Login :: Login_SecQues(){}
 
 
-void Login :: Enter_NewPass(char new_pass[],char check_new_pass[])
+void Login::Enter_NewPass(char new_pass[],char check_new_pass[])
 {
 	cout<<"Enter new PASSWORD: ";
 	cin>>new_pass;

@@ -22,7 +22,7 @@ class Login{
 		
 };
 
-void Login :: Register()
+void Login::Register()
 {
 	ofstream fout("login_data.txt",ios::trunc);
 	cout<<"Enter username(mail): ";
@@ -137,7 +137,7 @@ void Login::Enter_NewPass(char new_pass[],char check_new_pass[])
 
 
 
-void Login :: Login_Output()
+void Login::Login_Output()
 {
     if(access==1)
 		{
